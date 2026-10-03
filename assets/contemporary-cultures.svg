@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 680" role="img" aria-label="Schematic regional map of the Indian subcontinent showing the Indus Valley Civilization urban zone and contemporary Neolithic, Chalcolithic, and Megalithic cultures">
+  <title>The Indus Valley Civilization and Its Subcontinental Contemporaries (c. 3300–1300 BCE)</title>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="mapBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1424" />
+      <stop offset="100%" stop-color="#0f1d33" />
+    </linearGradient>
+
+    <!-- Subcontinent Land Tint -->
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#14223d" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#182744" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- IVC Saffron Zone Pattern / Glow -->
+    <linearGradient id="ivcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#E07B18" stop-opacity="0.18" />
+    </linearGradient>
+
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Card Background -->
+  <rect width="840" height="680" rx="10" fill="url(#mapBgGrad)" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.35" />
+
+  <!-- Subtle Coordinate / Grid Lines -->
+  <g stroke="#D4AF37" stroke-width="0.5" stroke-opacity="0.12" stroke-dasharray="3,6">
+    <line x1="50" y1="120" x2="790" y2="120" />
+    <line x1="50" y1="240" x2="790" y2="240" />
+    <line x1="50" y1="360" x2="790" y2="360" />
+    <line x1="50" y1="480" x2="790" y2="480" />
+    <line x1="50" y1="600" x2="790" y2="600" />
+    <line x1="160" y1="40" x2="160" y2="640" />
+    <line x1="300" y1="40" x2="300" y2="640" />
+    <line x1="440" y1="40" x2="440" y2="640" />
+    <line x1="580" y1="40" x2="580" y2="640" />
+    <line x1="720" y1="40" x2="720" y2="640" />
+  </g>
+
+  <!-- Ocean Ambient Labels -->
+  <text x="110" y="470" fill="#D4AF37" fill-opacity="0.25" font-family="'Cormorant Garamond', Georgia, serif" font-size="14" letter-spacing="3" font-style="italic">ARABIAN SEA</text>
+  <text x="640" y="470" fill="#D4AF37" fill-opacity="0.25" font-family="'Cormorant Garamond', Georgia, serif" font-size="14" letter-spacing="3" font-style="italic">BAY OF BENGAL</text>
+  <text x="360" y="660" fill="#D4AF37" fill-opacity="0.22" font-family="'Cormorant Garamond', Georgia, serif" font-size="13" letter-spacing="3" font-style="italic">INDIAN OCEAN</text>
+
+  <!-- Stylized Subcontinent Land Silhouette -->
+  <path d="M 210,130
+           C 240,65 290,45 330,45
+           C 370,45 420,80 470,115
+           C 530,135 600,140 650,155
+           C 680,165 710,195 685,230
+           C 660,260 620,265 590,280
+           C 560,295 530,340 500,380
+           C 460,430 420,490 380,550
+           C 365,575 350,615 340,635
+           C 335,635 325,605 315,570
+           C 295,505 270,445 250,395
+           C 235,360 195,355 170,350
+           C 150,345 145,320 170,305
+           C 185,295 160,280 135,270
+           C 105,255 100,215 130,190
+           C 155,170 185,155 210,130 Z"
+        fill="url(#landGrad)" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.38" />
+
+  <!-- River Ribbons (Stylized) -->
+  <g fill="none" stroke="#0A3A82" stroke-width="1.3" opacity="0.65">
+    <!-- Indus system -->
+    <path d="M 330,65 Q 280,105 220,150 T 170,240 T 155,325" />
+    <path d="M 270,120 Q 235,160 200,210" />
+    <path d="M 290,135 Q 255,180 215,225" />
+    <!-- Ganga - Yamuna system -->
+    <path d="M 350,105 Q 410,165 480,215 T 580,275" />
+    <path d="M 335,120 Q 380,180 440,225" />
+    <!-- Narmada / Tapti -->
+    <path d="M 360,295 Q 280,310 190,325" />
+    <!-- Godavari / Krishna -->
+    <path d="M 255,385 Q 360,395 470,410" />
+    <path d="M 275,445 Q 350,470 425,480" />
+  </g>
+
+  <!-- ===================================================================
+       1. IVC URBAN ZONE (Saffron Shaded Region)
+       =================================================================== -->
+  <path d="M 125,200
+           C 155,160 215,130 270,140
+           C 290,150 280,195 260,225
+           C 240,255 230,290 220,320
+           C 200,345 160,345 150,320
+           C 140,290 120,265 115,235 Z"
+        fill="url(#ivcGrad)" stroke="#FF9933" stroke-width="1.8" stroke-dasharray="4,2" />
+
+  <!-- IVC Core Urban Sites -->
+  <g fill="#FF9933">
+    <!-- Mohenjo-daro -->
+    <circle cx="170" cy="225" r="4.5" />
+    <text x="162" y="218" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" text-anchor="end">Mohenjo-daro</text>
+    <!-- Harappa -->
+    <circle cx="230" cy="165" r="4.5" />
+    <text x="238" y="160" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700">Harappa</text>
+    <!-- Dholavira -->
+    <circle cx="180" cy="305" r="4" />
+    <text x="190" y="308" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Dholavira</text>
+    <!-- Lothal -->
+    <circle cx="198" cy="335" r="4" />
+    <text x="208" y="339" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Lothal (Port)</text>
+    <!-- Rakhigarhi -->
+    <circle cx="270" cy="175" r="4" />
+    <text x="278" y="176" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Rakhigarhi</text>
+    <!-- Sutkagan Dor (West) -->
+    <circle cx="118" cy="220" r="3.5" />
+    <text x="112" y="235" fill="#FF9933" font-family="'Inter', sans-serif" font-size="9" text-anchor="end">Sutkagan Dor</text>
+  </g>
+
+  <!-- IVC Region Label Banner -->
+  <g transform="translate(130, 260)">
+    <rect width="132" height="20" rx="3" fill="#0c1525" fill-opacity="0.85" stroke="#FF9933" stroke-width="0.8" />
+    <text x="66" y="14" fill="#FF9933" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">INDUS URBAN ZONE</text>
+  </g>
+
+  <!-- ===================================================================
+       2. CONTEMPORARY CULTURES (Gold Pinpoints & Annotations)
+       =================================================================== -->
+
+  <!-- 1. Burzahom & Gufkral (Kashmir) -->
+  <g class="map-culture-pin" transform="translate(295, 75)">
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="4" fill="#D4AF37" />
+    <line x1="0" y1="-8" x2="30" y2="-28" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.7" />
+    <line x1="30" y1="-28" x2="160" y2="-28" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.7" />
+    <text x="35" y="-33" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="13" font-weight="700">Burzahom &amp; Gufkral</text>
+    <text x="35" y="-18" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="9" font-weight="600">KASHMIR · c. 3000 BCE onward</text>
+    <text x="35" y="-7" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8.5">Pit dwellings &amp; dog burials</text>
+  </g>
+
+  <!-- 2. Ahar-Banas (SE Rajasthan) -->
+  <g class="map-culture-pin" transform="translate(245, 270)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="-25" y2="24" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="-25" y1="24" x2="-140" y2="24" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="-30" y="19" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700" text-anchor="end">Ahar–Banas Culture</text>
+    <text x="-30" y="33" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" text-anchor="end">RAJASTHAN · c. 3000–1500 BCE</text>
+    <text x="-30" y="44" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8" text-anchor="end">Chalcolithic copper smelting</text>
+  </g>
+
+  <!-- 3. Kayatha & Malwa (Madhya Pradesh) -->
+  <g class="map-culture-pin" transform="translate(325, 290)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="25" y2="18" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="25" y1="18" x2="140" y2="18" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="30" y="14" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700">Kayatha &amp; Malwa</text>
+    <text x="30" y="28" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600">MADHYA PRADESH · c. 2400–1700 BCE</text>
+    <text x="30" y="39" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8">Bead caches &amp; microliths</text>
+  </g>
+
+  <!-- 4. Koldihwa & Mahagara (Belan Valley, UP) -->
+  <g class="map-culture-pin" transform="translate(435, 245)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="25" y2="-18" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="25" y1="-18" x2="145" y2="-18" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="30" y="-23" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700">Koldihwa &amp; Mahagara</text>
+    <text x="30" y="-9" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600">UTTAR PRADESH · c. 7000–3000 BCE</text>
+    <text x="30" y="2" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8">Cord-impressed pottery &amp; rice</text>
+  </g>
+
+  <!-- 5. Lahuradewa & Chirand (Ganga Plain, UP/Bihar) -->
+  <g class="map-culture-pin" transform="translate(490, 215)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="-5" x2="20" y2="-32" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="20" y1="-32" x2="145" y2="-32" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="25" y="-37" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700">Lahuradewa &amp; Chirand</text>
+    <text x="25" y="-23" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600">GANGA PLAIN · c. 7000–2000 BCE</text>
+    <text x="25" y="-12" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8">Early domesticated rice &amp; bone tools</text>
+  </g>
+
+  <!-- 6. Daimabad & Inamgaon (Deccan) -->
+  <g class="map-culture-pin" transform="translate(265, 375)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="-22" y2="20" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="-22" y1="20" x2="-140" y2="20" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="-26" y="15" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700" text-anchor="end">Daimabad &amp; Inamgaon</text>
+    <text x="-26" y="29" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" text-anchor="end">DECCAN · c. 2300–1000 BCE</text>
+    <text x="-26" y="40" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8" text-anchor="end">Bronze sculptures &amp; mud houses</text>
+  </g>
+
+  <!-- 7. Jorwe Culture (Maharashtra) -->
+  <g class="map-culture-pin" transform="translate(250, 420)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="-20" y2="25" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="-20" y1="25" x2="-130" y2="25" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="-24" y="20" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700" text-anchor="end">Jorwe Culture</text>
+    <text x="-24" y="34" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" text-anchor="end">MAHARASHTRA · c. 1400–1000 BCE</text>
+    <text x="-24" y="45" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8" text-anchor="end">Spouted pottery &amp; farming villages</text>
+  </g>
+
+  <!-- 8. Brahmagiri, Hallur, Kupgal (Karnataka) -->
+  <g class="map-culture-pin" transform="translate(305, 505)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6" />
+    <circle cx="0" cy="0" r="3.5" fill="#D4AF37" />
+    <line x1="0" y1="0" x2="30" y2="20" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <line x1="30" y1="20" x2="165" y2="20" stroke="#D4AF37" stroke-width="0.9" stroke-opacity="0.7" />
+    <text x="35" y="15" fill="#F5EFE6" font-family="'Cormorant Garamond', serif" font-size="12.5" font-weight="700">Brahmagiri, Hallur, Kupgal</text>
+    <text x="35" y="29" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600">KARNATAKA · c. 3000–1000 BCE</text>
+    <text x="35" y="40" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8">Ash-mounds &amp; early megaliths</text>
+  </g>
+
+  <!-- ===================================================================
+       LEGEND (Top / Mid-Right)
+       =================================================================== -->
+  <g transform="translate(540, 520)">
+    <rect width="275" height="135" rx="8" fill="#0C1525" fill-opacity="0.92" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4" />
+    <text x="18" y="26" fill="#D4AF37" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="700" letter-spacing="1">MAP CLASSIFICATION</text>
+    <line x1="18" y1="34" x2="255" y2="34" stroke="#D4AF37" stroke-width="0.6" stroke-opacity="0.3" />
+
+    <!-- Legend Item 1: Urban IVC -->
+    <rect x="18" y="47" width="18" height="18" rx="3" fill="#FF9933" fill-opacity="0.4" stroke="#FF9933" stroke-width="1.6" />
+    <text x="46" y="56" fill="#FF9933" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700">Urban (IVC)</text>
+    <text x="46" y="68" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8.5">Planned cities, script, drainage &amp; weights</text>
+
+    <!-- Legend Item 2: Contemporary Cultures -->
+    <circle cx="27" cy="98" r="6" fill="#D4AF37" />
+    <circle cx="27" cy="98" r="9" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+    <text x="46" y="96" fill="#D4AF37" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700">Village / Neolithic / Chalcolithic</text>
+    <text x="46" y="108" fill="#F5EFE6" fill-opacity="0.7" font-family="'Inter', sans-serif" font-size="8.5">Contemporaries: farming, pottery, metallurgy</text>
+    <text x="46" y="120" fill="#F5EFE6" fill-opacity="0.5" font-family="'Inter', sans-serif" font-size="8">and megalithic ash-mounds across regions</text>
+  </g>
+</svg>

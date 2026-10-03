@@ -1,0 +1,60 @@
+/**
+ * variables.css — Design Tokens & Custom Properties
+ * Defines colors, typography, transitions, shadows, and spacing.
+ */
+
+:root {
+  /* Brand Palette */
+  --saffron: #FF9933;
+  --deep-saffron: #E07B18;
+  --maroon: #6B1F1F;
+  --indigo: #1B2A4A;
+  --indigo-2: #0F1A2E;
+  --gold: #D4AF37;
+  --ivory: #F5EFE6;
+  --ashoka-blue: #0A3A82;
+  --muted: rgba(245, 239, 230, 0.65);
+
+  /* Derived Surface Tints & Borders */
+  --surface-card: rgba(27, 42, 74, 0.6);
+  --surface-card-hover: rgba(36, 56, 98, 0.8);
+  --border-gold-subtle: rgba(212, 175, 55, 0.25);
+  --border-gold-active: rgba(212, 175, 55, 0.8);
+  --hairline-gold: rgba(212, 175, 55, 0.4);
+  --gold-glow: 0 0 20px rgba(212, 175, 55, 0.35);
+
+  /* Typography Stacks */
+  --font-display: "Cormorant Garamond", Garamond, "Times New Roman", Georgia, serif;
+  --font-body: "Inter", "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Font Scales */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 2rem;       /* 32px */
+  --text-4xl: clamp(2.25rem, 5vw, 3.5rem);
+  --text-hero: clamp(4rem, 16vw, 12rem);
+
+  /* Max Measure */
+  --max-ch: 68ch;
+  --container-max: 1200px;
+  --header-height: 76px;
+
+  /* Spacing */
+  --section-padding-y: 120px;
+  --gutter-mobile: 24px;
+  --gutter-desktop: 40px;
+
+  /* Transitions */
+  --ease-cinematic: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 200ms ease;
+  --transition-normal: 350ms var(--ease-cinematic);
+  --transition-slow: 600ms var(--ease-cinematic);
+
+  /* Focus Indicator */
+  --focus-ring: 2px solid var(--gold);
+  --focus-offset: 2px;
+}
