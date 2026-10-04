@@ -1998,6 +1998,12 @@ body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
   color: var(--gold);
 }
 
+.track-badge--network {
+  background: rgba(10, 58, 130, 0.25);
+  border: 1px solid #4FC3F7;
+  color: #4FC3F7;
+}
+
 .track-flow {
   display: flex;
   flex-wrap: wrap;
@@ -2526,5 +2532,172 @@ body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* Hero Clarifying Note */
+.hero-note {
+  font-size: var(--text-xs);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 680px;
+  margin: 14px auto 0 auto;
+  line-height: 1.6;
+}
+
+/* Evidence Box */
+.evidence-box {
+  background: rgba(15, 26, 46, 0.7);
+  border-left: 3px solid var(--gold);
+  border-top: 1px solid var(--border-gold-subtle);
+  border-right: 1px solid var(--border-gold-subtle);
+  border-bottom: 1px solid var(--border-gold-subtle);
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px;
+  margin: 20px 0;
+  font-size: var(--text-sm);
+  line-height: 1.7;
+  color: var(--ivory);
+}
+
+.evidence-box-title {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.evidence-box-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.evidence-box-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 6px;
+  color: var(--ivory);
+  opacity: 0.9;
+}
+
+.evidence-box-list li::before {
+  content: "·";
+  position: absolute;
+  left: 6px;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.evidence-box-list li strong {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.evidence-box-limitations {
+  display: block;
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--muted);
+  border-top: 1px dashed var(--border-gold-subtle);
+  padding-top: 10px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* How Do We Know? Panel */
+.how-do-we-know {
+  background: rgba(11, 20, 36, 0.85);
+  border: 1px solid var(--border-gold-subtle);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.how-do-we-know-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.how-do-we-know-title::before {
+  content: "?";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid var(--gold);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.how-do-we-know-body {
+  font-size: var(--text-sm);
+  line-height: 1.8;
+  color: var(--ivory);
+  opacity: 0.92;
+}
+
+.how-do-we-know-body p {
+  margin-bottom: 12px;
+}
+
+.how-do-we-know-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Source Line (per-page footer) */
+.source-line {
+  border-top: 1px solid var(--border-gold-subtle);
+  margin-top: 48px;
+  padding-top: 20px;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  line-height: 1.7;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+.source-line strong {
+  display: block;
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  margin-bottom: 8px;
+}
+
+.source-line ol {
+  list-style: decimal;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.source-line li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 480px) {
+  .evidence-box,
+  .how-do-we-know {
+    padding: 14px 16px;
+  }
+}
+
+
 
 
