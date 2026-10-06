@@ -92,3 +92,44 @@
 | T3 | Maratha Bargi Raids on Bengal card + EB29 | ✓ Done |
 | T4 | Ahilyabai Holkar card + Rani Abbakka Chowta card | ✓ Done |
 | T5 | Source list updated with 5 new references | ✓ Done |
+
+---
+
+## CHUNK 3-B Completed (2026-10-06)
+
+| Task | Description | Status |
+|------|-------------|--------|
+| T1 | Aurangzeb card + EB34 (Fatawa, Maasir, Sarkar, Chandra, Truschke) | ✓ Done |
+| T2 | Alauddin Khalji card + EB35 (Barani, Lal, Chandra, Jackson) | ✓ Done |
+| T3 | Razia Sultana card + EB36 (Minhaj, Jackson, Kumar) | ✓ Done |
+| T4 | Karkota/Lalitaditya + Queen Didda card + EB37 (Kalhana, Stein) | ✓ Done |
+| T5 | Akbar card refined: Chittorgarh jauhar, Ranthambore, Din-i-Ilahi, Haldighati | ✓ Done |
+| T6 | Ashoka card refined: atavikas warning (Rock Edict XIII), selective Dhamma note | ✓ Done |
+| T7 | Shivaji card refined: Surat raids, Janjira failure, Maratha rival conflicts | ✓ Done |
+| T8 | Source list updated: Truschke, Sarkar (Aurangzib), Chandra, Jackson, Kalhana, Kumar | ✓ Done |
+
+### CHUNK 3-B Gaps Not Addressed (pass to CHUNK 3-C)
+
+**BL-06 (resolved partially):** Ahilyabai Holkar now has content; evidence box still missing → carry forward.  
+**BL-07 (resolved partially):** Rani Abbakka now has content; evidence box still missing → carry forward.  
+**BL-08:** Filter chip mobile drawer equivalence not tested.  
+**BL-09:** CDP test runner not found in repo; tests not executed.  
+**BL-10:** Pages civilizations.html, colonial-india.html, freedom-struggle.html, republic.html not yet audited.
+
+### New Gaps Identified in CHUNK 3-B
+
+**BL-11 — Aurangzeb card: Deccan wars duration/cost not sourced**  
+Claim "drained the Mughal treasury" should cite Chandra (2005) or Irvine directly.  
+Priority: Low
+
+**BL-12 — Alauddin Khalji: Missing women/jauhar context at Chittor**  
+Khalji card mentions Chittor (1303) only as "large-scale warfare". The mass jauhar of women (per Padmavat tradition) is contested but should be noted.  
+Priority: Low
+
+**BL-13 — Razia Sultana: Missing coin evidence**  
+Coins minted in her name survive and could be added as epigraphic evidence.  
+Priority: Low
+
+**BL-14 — Karkota/Didda: No modern critical scholarship on Didda specifically**  
+Only Stein (1900) cited. More recent work (A.K. Warder, etc.) should be referenced.  
+Priority: Low
