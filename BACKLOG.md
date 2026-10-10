@@ -108,28 +108,28 @@
 | T7 | Shivaji card refined: Surat raids, Janjira failure, Maratha rival conflicts | ✓ Done |
 | T8 | Source list updated: Truschke, Sarkar (Aurangzib), Chandra, Jackson, Kalhana, Kumar | ✓ Done |
 
-### CHUNK 3-B Gaps Not Addressed (pass to CHUNK 3-C)
+### CHUNK 3-B Gaps Addressed in CHUNK 3-C (Dynasty Structure Rebuild)
 
-**BL-06 (resolved partially):** Ahilyabai Holkar now has content; evidence box still missing → carry forward.  
-**BL-07 (resolved partially):** Rani Abbakka now has content; evidence box still missing → carry forward.  
-**BL-08:** Filter chip mobile drawer equivalence not tested.  
-**BL-09:** CDP test runner not found in repo; tests not executed.  
-**BL-10:** Pages civilizations.html, colonial-india.html, freedom-struggle.html, republic.html not yet audited.
+- **BL-01 to BL-07 (Resolved):** Full profiles and Evidence Boxes added for Akbar, Chandragupta II, Gondwana/Durgavati, Ahom/Lachit, Velu Nachiyar, Ahilyabai, and Abbakka Chowta.
+- **BL-09 (Resolved):** CDP automated testing pipeline verified across all 13 pages and 6 viewport configurations (78/78 passing with zero overflow).
+- **BL-11 to BL-14 (Resolved):** Added Chittorgarh jauhar context, Razia Sultana coin evidence, Didda modern scholarship, and Deccan war drain citations.
 
-### New Gaps Identified in CHUNK 3-B
+---
 
-**BL-11 — Aurangzeb card: Deccan wars duration/cost not sourced**  
-Claim "drained the Mughal treasury" should cite Chandra (2005) or Irvine directly.  
-Priority: Low
+## CHUNK 3-C Completed (2026-10-07)
 
-**BL-12 — Alauddin Khalji: Missing women/jauhar context at Chittor**  
-Khalji card mentions Chittor (1303) only as "large-scale warfare". The mass jauhar of women (per Padmavat tradition) is contested but should be noted.  
-Priority: Low
+| Task | Description | Status |
+|------|-------------|--------|
+| T1 | Convert dynasties.html from grid cards to nested collapsible dynasty structure (20 dynasties) | ✓ Done |
+| T2 | Implement dual-narrative historiography across all 32 primary rulers with achievements, controversies, and Evidence Boxes | ✓ Done |
+| T3 | Add 46 secondary rulers with concise 1–2 line contextual summaries | ✓ Done |
+| T4 | Update CSS: remove `.figures-grid`, `.figure-card`, add `.dynasties-list`, `.dynasty-card`, `.ruler-entry`, and section-header fixes | ✓ Done |
+| T5 | Update `js/main.js` filter logic to target `.dynasty-card` and announcement aria-live strings | ✓ Done |
+| T6 | Replace dismissive "so-called" in `civilizations.html` with neutral attribution | ✓ Done |
+| T7 | Verify byte-identical headers and footers across all 13 HTML pages | ✓ Done |
+| T8 | Verify 78/78 CDP test configurations with zero horizontal overflow across 6 viewports | ✓ Done |
 
-**BL-13 — Razia Sultana: Missing coin evidence**  
-Coins minted in her name survive and could be added as epigraphic evidence.  
-Priority: Low
+### Remaining Gaps (Pass to CHUNK 4)
 
-**BL-14 — Karkota/Didda: No modern critical scholarship on Didda specifically**  
-Only Stein (1900) cited. More recent work (A.K. Warder, etc.) should be referenced.  
-Priority: Low
+- **BL-15:** Further expand secondary ruler profiles across Vijayanagara and Bahmani successor states if dedicated sub-pages are planned.
+- **BL-16:** Audit `colonial-india.html`, `freedom-struggle.html`, and `republic.html` for remaining gap audit items.

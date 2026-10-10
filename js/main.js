@@ -82,7 +82,8 @@ function initParticleCanvas() {
  */
 function initDynastyFilters() {
   const chips = document.querySelectorAll('.filter-chip');
-  const cards = document.querySelectorAll('.figure-card');
+  const cards = document.querySelectorAll('.dynasty-card');
+  const sectionHeadings = document.querySelectorAll('.era-section-heading');
   const liveStatus = document.getElementById('filter-live-status');
 
   chips.forEach((chip) => {
@@ -100,8 +101,9 @@ function initDynastyFilters() {
       let visibleCount = 0;
 
       cards.forEach((card) => {
-        const cardCategory = card.getAttribute('data-category');
-        const matches = targetCategory === 'all' || cardCategory === targetCategory;
+        const cardCategory = card.getAttribute('data-category') || '';
+        const categories = cardCategory.split(/\s+/);
+        const matches = targetCategory === 'all' || categories.includes(targetCategory);
 
         if (matches) {
           card.classList.remove('hidden');
@@ -111,9 +113,22 @@ function initDynastyFilters() {
         }
       });
 
+      if (sectionHeadings) {
+        sectionHeadings.forEach((heading) => {
+          const headingCat = heading.getAttribute('data-category') || '';
+          const cats = headingCat.split(/\s+/);
+          const matches = targetCategory === 'all' || cats.includes(targetCategory);
+          if (matches) {
+            heading.classList.remove('hidden');
+          } else {
+            heading.classList.add('hidden');
+          }
+        });
+      }
+
       // Announce count to assistive technology
       if (liveStatus) {
-        liveStatus.textContent = `Showing ${visibleCount} historical figures for category ${chip.textContent.trim()}.`;
+        liveStatus.textContent = `${visibleCount} dynasties shown for category ${chip.textContent.trim()}.`;
       }
     });
   });
