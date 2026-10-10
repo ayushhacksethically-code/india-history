@@ -2962,7 +2962,8 @@ body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
    Ruler Profile Pages (.ruler-hero, .quick-facts, .claims, .contemporaries, etc.)
    ===================================================================== */
 
-.ruler-read-more {
+.ruler-read-more,
+.ruler-row-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -2980,7 +2981,9 @@ body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
 }
 
 .ruler-read-more:hover,
-.ruler-read-more:focus-visible {
+.ruler-read-more:focus-visible,
+.ruler-row-link:hover,
+.ruler-row-link:focus-visible {
   background: rgba(212, 175, 55, 0.2);
   border-color: var(--gold);
   color: var(--ivory);
