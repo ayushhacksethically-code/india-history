@@ -5,3 +5,5 @@ node_modules/
 .vscode/
 .idea/
 AUDIT_REPORT.md
+screenshot*.png
+
