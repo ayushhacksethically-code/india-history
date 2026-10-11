@@ -2,25 +2,53 @@
 All notable changes to this project.
 
 ## [Unreleased]
-- Phase 2: Colonial India sub-pages
-- Phase 3: Freedom Struggle early resistance and nationalism
-- Phase 4: Gandhian era and endgame
-- Phase 5: Parallel struggles and Partition
-- Phase 6: Unfinished struggles (post-1947)
-- Phase 7: Polish, cross-links, timeline integration
+### Planned
+- Ruler sub-pages for 79 pending entries (2 per day)
+- Kashmir section in republic.html
+- Northeast India section
+- Maritime civilizational axis
+- Portuguese Goa (1510–1961)
+- Peninsular dynasties (Chalukyas, Rashtrakutas)
+- Kashmir dynasties (Karkota, Didda — currently brief)
+- Hindi version (base-language approach)
+- Post-2014 events (scope note only)
 
-## [0.3.0] — Phase C · Chunk 1 complete (2026-10-05)
+## [0.7.0] — 2026-10-11
 ### Added
-- 20 new glossary terms (52 total): Ahimsa, Archaeogenetics, Atman,
-  Bhakti, Brahman, Dharma, Ganasangha, Janapada, Karma,
-  Mahajanapada, Moksha, Numismatics, Periodisation, Primary source,
-  Purusha Sukta, Sangha, Secondary source, Shramana, Sufism,
-  Vedanta
+- Harappan Seals section on origins.html ("The Seals of the Harappan World" — 5 cards, Pashupati contested label, trade network, Marshall/Mackay/Parpola sources)
+- 4 new ruler pages: ashoka.html, akbar.html, aurangzeb.html, shivaji.html (each 3,400–4,500 words, 6 Evidence Boxes)
+- Ghaznavid & Ghurid dynasty card in dynasties.html (Mahmud of Ghazni, Muhammad Ghori, Subuktigin, Bakhtiyar Khalji)
+- Sikh Persecution entry in Mughal card (1606–1716 CE — Guru Arjan Dev, Guru Hargobind, Guru Tegh Bahadur, Sahibzadas, Banda Singh Bahadur)
+- references.html: glossary converted from grid to list (52 terms, .content-list)
+- R.C. Majumdar added to civilizations.html source line
 
-## [0.2.1] — Reveal bug fix (2026-10-05)
+### Changed
+- dynasties.html: rebuilt as hub/directory (83 ruler entries, 4-line format: name, reign, summary, link)
+- dynasties.html: Sections 4-5 styling aligned with Sections 1-3 (removed uppercase button-style links, unified .ruler-row canonical style)
+- civilizations.html: 8 neutrality fixes applied (equal partners → unequal/collaborative, evidence shows → most current scholarship, textbook strawman → accurate-as-far, dark age → fragmentation, plurality editorial → both readings, so-called → proposed/disputed, CTA link title, Sultanate/Mughal urban examples)
+- Nav/title/breadcrumb audit: 4 pages fixed (civilizations, dynasties, living-civilizations titles; references breadcrumb)
+- IIPA claims corrected: "first urban civilization" → "one of the earliest"; "Pashupati is the name" → "identified by Marshall (1931), contested"
+
 ### Fixed
-- Tall-element scroll-reveal invisibility: dynamic IntersectionObserver
-  threshold (0 for tall elements, 0.12 for normal)
+- Tall-element reveal bug (dynamic threshold for elements >50% viewport height)
+- Duplicate SVG block on origins.html
+- 4 CSS class mismatches (.cta-btn modifiers, .sr-only, .origins-badge--blue, .hero-tagline)
+
+### Verified
+- Byte-identical header/footer across 17 pages
+- CDP tests: 102/102 viewport configs pass
+- Zero horizontal overflow at 320/375/768/1024/1440/1920
+- Total content: ~52,000 words across 17 pages
+
+## [0.5.0] — 2026-10-05 (Phase C)
+### Added
+- 20 new glossary terms (32 → 52 total)
+- "How to Read This Site" section on references.html
+- Review schedule in footers site-wide
+- CORRECTIONS.md at repo root
+- Hindurāya section on civilizations.html
+- "Pre-Colonial Caste Enforcement" section on civilizations.html + colonial-india.html nuance
+- Ruler self-identification lines deferred to Phase C·7
 
 ## [0.2.0] — Phase B complete (2026-10-04)
 ### Added

@@ -52,7 +52,7 @@ The website is 100% `file://` safe (no web server, node, or bundler required).
 
 ## Navigation Mapping
 
-All 10 pages share the exact same navigation sequence in desktop header, mobile drawer, and footer quick links:
+All 11 navigation pages are reachable from the shared desktop header, mobile drawer, and footer quick links — 7 in the primary nav, 4 in the 'More' dropdown:
 
 1. **Home** (`index.html`)
 2. **Origins** (`origins.html`)
@@ -61,9 +61,10 @@ All 10 pages share the exact same navigation sequence in desktop header, mobile 
 5. **Civilizations** (`civilizations.html`)
 6. **Living Civilizations** (`living-civilizations.html`)
 7. **Dynasties** (`dynasties.html`)
-8. **Freedom** (`freedom.html`)
-9. **Republic** (`republic.html`)
-10. **References** (`references.html`)
+8. **Colonial India** (`colonial-india.html`)
+9. **Freedom Struggle** (`freedom-struggle.html`)
+10. **Republic** (`republic.html`)
+11. **References** (`references.html`)
 
 ---
 
@@ -72,20 +73,27 @@ All 10 pages share the exact same navigation sequence in desktop header, mobile 
 ```
 /home/narayanas/INDIA: The History of India/
 ├── index.html                   # Page 1: Home (100vh hero, spinning chakra, thesis pull quote, 8-card explore grid, 4-line digest)
-├── origins.html                 # Page 2: Origins (Pre-history, village roots: Mehrgarh/Bhirrana/Kunal, IVC urban exception, 8 contemporary cultures)
+├── origins.html                 # Page 2: Origins (Pre-history, village roots: Mehrgarh/Bhirrana/Kunal, IVC urban exception, Harappan Seals, 8 contemporary cultures)
 ├── antiquity.html               # Page 3: Antiquity (How Old Is Indian Civilization? Antiquity vs. continuity, timeline of firsts, verified claims)
 ├── timeline.html                # Page 4: Interactive Timeline (15 epochs, central spine + parallel thread, quick reference table)
 ├── civilizations.html           # Page 5: Civilizations (Thesis page: Two-track parallel diagram, 3 definition cards, braided river SVG, comparative callout)
 ├── living-civilizations.html    # Page 6: Living Civilizations (India & China comparison table, single-stream vs. multi-stream mechanism diagram)
-├── dynasties.html               # Page 7: Dynasties (Rulers, republics and non-imperial polities, interactive filter chips, aria-live status)
-├── freedom.html                 # Page 8: Freedom Struggle (1857 to 1947, 8-card responsive scroll strip, plural resistance narrative)
-├── republic.html                # Page 9: The Republic (1950 to present, Constitution, Dr. B. R. Ambedkar, constitutional pluralism, space/digital leaps)
-├── references.html              # Page 10: Sources & References (Historiographical methodology, definition of civilization, comparative bibliography)
+├── dynasties.html               # Page 7: Dynasties (Hub & directory of 83 rulers across 5 eras, interactive filter chips, aria-live status)
+├── colonial-india.html          # Page 8: Colonial India (1757 to 1947 context hub, mechanisms of rule, drain of wealth, social impacts)
+├── freedom-struggle.html        # Page 9: Freedom Struggle (Plural resistance movements, visible resistance, parallel emancipations, Partition costs)
+├── republic.html                # Page 10: The Republic (1950 to present, Constitution, Dr. B. R. Ambedkar, Emergency, external wars, economic reforms)
+├── references.html              # Page 11: Sources & References (Historiographical methodology, 52-term glossary, comparative bibliography)
+├── freedom.html                 # Page 12: Freedom (Legacy 8-card scroll strip, plural resistance narrative)
+├── 404.html                     # Page 13: 404 Not Found (Standardized error page with site navigation)
+├── ashoka.html                  # Page 14: Ashoka Maurya (Ruler profile: edicts, Kalinga aftermath, Dhamma statecraft, 6 Evidence Boxes)
+├── akbar.html                   # Page 15: Jalal-ud-din Muhammad Akbar (Ruler profile: Sulh-i-kul, Mansabdari, Ibadat Khana, Chittorgarh)
+├── aurangzeb.html               # Page 16: Muhi-ud-din Muhammad Aurangzeb (Ruler profile: Fatawa-e-Alamgiri, Deccan campaigns, jizya, temples)
+├── shivaji.html                 # Page 17: Chhatrapati Shivaji Maharaj (Ruler profile: Hindavi Swarajya, Ashtapradhan, naval fleet, fort warfare)
 ├── css/
 │   ├── reset.css                # CSS reset & border-box baseline
 │   ├── variables.css            # Color tokens, typography clamps, spacing, transitions
 │   ├── layout.css               # Containers, section rhythms, print rules, breadcrumbs
-│   ├── components.css           # Header, hero, timeline, cards, filters, tables, two-track, braided river, comparison table
+│   ├── components.css           # Header, hero, timeline, cards, filters, tables, two-track, braided river, comparison table, ruler-row
 │   └── animations.css           # Keyframes, chakra rotation, scroll reveals, prefers-reduced-motion overrides
 ├── js/
 │   ├── main.js                  # Shared orchestrator (nav, particles, dynasty filters, back to top)
@@ -126,7 +134,7 @@ Defined in `css/variables.css`:
 
 ## Shared Chrome Contract
 
-All 10 pages feature a **100% byte-identical `<header>` and `<footer>`** block:
+All 17 pages feature a **100% byte-identical `<header>` and `<footer>`** block:
 - **Active Page Detection**: Handled cleanly via `<body data-page="[page-name]">` matching `.nav-link[data-page="[page-name]"]` in `css/components.css` and `js/nav.js`.
 - **Breadcrumbs**: Every subpage includes a `<nav class="breadcrumb-nav" aria-label="Breadcrumb">` path immediately following the header.
 - **Mobile Menu**: Fully accessible drawer with focus trapping, `aria-expanded` toggle, and `Escape` key close.

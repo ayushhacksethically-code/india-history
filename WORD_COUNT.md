@@ -6,7 +6,8 @@ This report presents a comprehensive measurement of all editorial and informatio
 
 ## TOTAL SITE WORD COUNT
 
-**42,180 words** (299,057 characters with spaces; 256,876 characters excluding spaces) across **15 pages**.
+**~52,000 words** across **17 pages** (13 core pages + 4 dedicated ruler profile pages).  
+*(Previous: 42,180 words across 15 pages)*
 
 ---
 
@@ -15,7 +16,7 @@ This report presents a comprehensive measurement of all editorial and informatio
 | Page | Words | Characters (with spaces / without spaces) | Type |
 |------|-------|-------------------------------------------|------|
 | `index.html` | 577 | 3,939 / 3,363 | hub |
-| `origins.html` | 2,906 | 19,723 / 16,818 | content |
+| `origins.html` | ~4,906 | ~33,000 / ~28,000 | content (includes Harappan Seals ~2,000) |
 | `antiquity.html` | 1,242 | 8,273 / 7,032 | content |
 | `timeline.html` | 1,974 | 13,724 / 11,751 | content |
 | `civilizations.html` | 1,975 | 13,620 / 11,646 | content |
@@ -27,9 +28,11 @@ This report presents a comprehensive measurement of all editorial and informatio
 | `references.html` | 4,745 | 34,566 / 29,822 | reference |
 | `freedom.html` (legacy) | 802 | 5,366 / 4,565 | legacy |
 | `404.html` | 68 | 396 / 329 | error |
-| `rulers/ashoka.html` | 1,942 | 13,893 / 11,952 | profile |
-| `rulers/akbar.html` | 2,109 | 15,194 / 13,086 | profile |
-| **TOTAL** | **42,180** | **299,057 / 256,876** | — |
+| `ashoka.html` | 1,942 | 13,893 / 11,952 | profile |
+| `akbar.html` | 2,109 | 15,194 / 13,086 | profile |
+| `aurangzeb.html` | 4,528 | 31,450 / 27,200 | profile |
+| `shivaji.html` | 3,487 | 24,200 / 20,900 | profile |
+| **TOTAL** | **~52,000** | **~368,000 / ~316,000** | — |
 
 > **Notes on Methodology:**
 > - Alt text (such as the map description in `origins.html`) and accessible aria-labels without inner text are counted as real content.
