@@ -173,13 +173,16 @@ async def run_suite():
                         failures.append((page, vp_label, val))
 
                     # Capture screenshots for the target cleanup/build pages
-                    target_pages = ["astronomy.html", "dynasties.html", "science.html", "colonial-india.html", "freedom-struggle.html"]
+                    target_pages = ["chandragupta-maurya.html", "rajaraja-chola.html", "astronomy.html", "dynasties.html", "science.html", "colonial-india.html", "freedom-struggle.html"]
                     if page in target_pages and width in [1440, 375]:
                         # Scroll to the relevant cards section for the screenshot
                         await call("Runtime.evaluate", {
                             "expression": """
                             (() => {
-                                if (window.location.href.includes('astronomy')) {
+                                if (window.location.href.includes('chandragupta') || window.location.href.includes('rajaraja')) {
+                                    const el = document.querySelector('.claims-grid') || document.querySelector('.quick-facts-panel');
+                                    if (el) el.scrollIntoView();
+                                } else if (window.location.href.includes('astronomy')) {
                                     const el = document.querySelector('.quick-facts-panel') || document.querySelector('.ruler-hero');
                                     if (el) el.scrollIntoView();
                                 } else if (window.location.href.includes('dynasties')) {
