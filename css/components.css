@@ -186,6 +186,8 @@
 }
 
 /* Active indicator for More button when on overflow page */
+body[data-page="science"] .nav-dropdown-btn,
+body[data-page="mathematics"] .nav-dropdown-btn,
 body[data-page="freedom-struggle"] .nav-dropdown-btn,
 body[data-page="living-civilizations"] .nav-dropdown-btn,
 body[data-page="republic"] .nav-dropdown-btn,
@@ -193,6 +195,8 @@ body[data-page="references"] .nav-dropdown-btn {
   color: var(--gold);
 }
 
+body[data-page="science"] .nav-dropdown-btn::after,
+body[data-page="mathematics"] .nav-dropdown-btn::after,
 body[data-page="freedom-struggle"] .nav-dropdown-btn::after,
 body[data-page="living-civilizations"] .nav-dropdown-btn::after,
 body[data-page="republic"] .nav-dropdown-btn::after,
@@ -247,6 +251,8 @@ body[data-page="references"] .nav-dropdown-btn::after {
 }
 
 /* Active item inside dropdown */
+body[data-page="science"] .nav-dropdown-item[data-page="science"],
+body[data-page="mathematics"] .nav-dropdown-item[data-page="science"],
 body[data-page="freedom-struggle"] .nav-dropdown-item[data-page="freedom-struggle"],
 body[data-page="living-civilizations"] .nav-dropdown-item[data-page="living-civilizations"],
 body[data-page="republic"] .nav-dropdown-item[data-page="republic"],
@@ -456,6 +462,8 @@ body[data-page="dynasties"] .mobile-nav-links .nav-link[data-page="dynasties"],
 body[data-page="colonial-india"] .mobile-nav-links .nav-link[data-page="colonial-india"],
 body[data-page="freedom-struggle"] .mobile-nav-links .nav-link[data-page="freedom-struggle"],
 body[data-page="living-civilizations"] .mobile-nav-links .nav-link[data-page="living-civilizations"],
+body[data-page="science"] .mobile-nav-links .nav-link[data-page="science"],
+body[data-page="mathematics"] .mobile-nav-links .nav-link[data-page="science"],
 body[data-page="republic"] .mobile-nav-links .nav-link[data-page="republic"],
 body[data-page="references"] .mobile-nav-links .nav-link[data-page="references"],
 body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
