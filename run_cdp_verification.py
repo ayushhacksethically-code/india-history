@@ -35,9 +35,9 @@ async def run_suite():
     
     pages = sorted(glob.glob("*.html"))
     pages = [p for p in pages if not p.startswith("test_")]
-    print(f"Total HTML pages to test: {len(pages)} (expected 19)")
+    print(f"Total HTML pages to test: {len(pages)}")
     print(f"Total viewports per page: {len(viewports)} (expected 6)")
-    print(f"Total test runs: {len(pages) * len(viewports)} (expected 114)")
+    print(f"Total test runs: {len(pages) * len(viewports)}")
 
     passed_count = 0
     failed_count = 0
@@ -172,14 +172,17 @@ async def run_suite():
                         failed_count += 1
                         failures.append((page, vp_label, val))
 
-                    # Capture screenshots for the 4 target cleanup pages
-                    target_pages = ["dynasties.html", "science.html", "colonial-india.html", "freedom-struggle.html"]
+                    # Capture screenshots for the target cleanup/build pages
+                    target_pages = ["astronomy.html", "dynasties.html", "science.html", "colonial-india.html", "freedom-struggle.html"]
                     if page in target_pages and width in [1440, 375]:
                         # Scroll to the relevant cards section for the screenshot
                         await call("Runtime.evaluate", {
                             "expression": """
                             (() => {
-                                if (window.location.href.includes('dynasties')) {
+                                if (window.location.href.includes('astronomy')) {
+                                    const el = document.querySelector('.quick-facts-panel') || document.querySelector('.ruler-hero');
+                                    if (el) el.scrollIntoView();
+                                } else if (window.location.href.includes('dynasties')) {
                                     const el = document.querySelector('.section-header') || document.querySelector('.ruler-row');
                                     if (el) el.scrollIntoView();
                                 } else if (window.location.href.includes('science')) {
