@@ -65,7 +65,7 @@ The objective of this audit is **NOT** to enforce political centrism or false eq
 | 16 | `dynasties.html` | Akbar / Mughal Era | Total absence of Delhi Sultanate monarchs (Alauddin Khalji, Razia Sultana) and later Mughal religious reversal under Aurangzeb (re-imposition of jizya, temple destructions). | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | 17 | `dynasties.html` | Women Rulers | Omission of Ahilyabai Holkar (famed for administrative justice and pan-Indian temple/ghat rebuilding) and Rani Abbakka Chowta (who defeated Portuguese invasions). | R | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 18 | `dynasties.html` | Kashmir Dynasties | Absence of Karkota Empire (Lalitaditya Muktapida), Queen Didda, Kalhana’s Rajatarangini, and Trika Kashmir Shaivism (Abhinavagupta). | N | 🟡 MODERATE | P2 | ⏳ PENDING |
-| 19 | `colonial-india.html` | The 1857 Turning Point | Complete silence on crucial Indian princely collaboration: Scindia, Nizam, Rajput rulers, Sikh states, and Gurkhas actively crushed the revolt (Lord Canning’s “breakwaters in the storm”). | R | 🔴 CRITICAL | P1 | ⏳ PENDING |
+| 19 | `colonial-india.html` | The 1857 Turning Point | Complete silence on crucial Indian princely collaboration: Scindia, Nizam, Rajput rulers, Sikh states, and Gurkhas actively crushed the revolt (Lord Canning’s “breakwaters in the storm”). | R | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | 20 | `colonial-india.html` | How the British Ruled | Omission of massive Indian military collaboration in imperial defense: 1.3 million soldiers in WWI and 2.5 million in WWII (largest volunteer army in human history). | R | 🔴 CRITICAL | P1 | ⏳ PENDING |
 | 21 | `colonial-india.html` | How the British Ruled | Frames communal antagonism purely as British “divide-and-rule” (1909 separate electorates), ignoring centuries of pre-colonial religious boundaries and sporadic sectarian riots. | L | 🔴 CRITICAL | P1 | ⏳ PENDING |
 | 22 | `colonial-india.html` | Social Impact: Caste | Attributes modern caste rigidity entirely to Herbert Risley and the 1871 census, obscuring indigenous structural inequality and orthodox enforcement. | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
@@ -73,13 +73,13 @@ The objective of this audit is **NOT** to enforce political centrism or false eq
 | 24 | `colonial-india.html` | Economic Impact | Omission of Indian commercial collaboration: Parsi, Marwari, and Gujarati mercantile elites profiting from agency houses and British opium/cotton trade with China. | R | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 25 | `colonial-india.html` | Economic Impact | Colonial famines analyzed without acknowledging recurring ENSO climate/drought triggers and pre-colonial subcontinental famine vulnerabilities. | L | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 26 | `colonial-india.html` | Social Impact | Indentured labour diaspora (over one million Girmitiyas transported to Fiji, Mauritius, Caribbean, and South Africa) omitted from human cost of empire. | N | 🟡 MODERATE | P2 | ⏳ PENDING |
-| 27 | `freedom-struggle.html` | Visible Layer (Resistance) | Marginalization of Revolutionary Nationalists (Bhagat Singh, Chandrashekhar Azad, Surya Sen, Bagha Jatin), subordinating armed struggle to the Congress non-violence narrative. | R | 🔴 CRITICAL | P1 | ⏳ PENDING |
-| 28 | `freedom-struggle.html` | Visible Layer (Resistance) | Total omission of Veer Savarkar (Abhinav Bharat, Cellular Jail / Kala Pani imprisonment, Hindutva 1923) and the Hindu Mahasabha from anti-colonial history. | R | 🔴 CRITICAL | P1 | ⏳ PENDING |
-| 29 | `freedom-struggle.html` | Partition: Cost of Freedom | Blames Partition solely on Cyril Radcliffe’s hasty borders and British cynicism; omits Congress political errors (1937 UP coalition rejection, 1946 Cabinet Mission grouping repudiation). | L | 🔴 CRITICAL | P1 | ⏳ PENDING |
+| 27 | `freedom-struggle.html` | Visible Layer (Resistance) | Marginalization of Revolutionary Nationalists (Bhagat Singh, Chandrashekhar Azad, Surya Sen, Bagha Jatin), subordinating armed struggle to the Congress non-violence narrative. | R | 🔴 CRITICAL | P1 | ✅ RESOLVED |
+| 28 | `freedom-struggle.html` | Visible Layer (Resistance) | Total omission of Veer Savarkar (Abhinav Bharat, Cellular Jail / Kala Pani imprisonment, Hindutva 1923) and the Hindu Mahasabha from anti-colonial history. | R | 🔴 CRITICAL | P1 | ✅ RESOLVED |
+| 29 | `freedom-struggle.html` | Partition: Cost of Freedom | Blames Partition solely on Cyril Radcliffe’s hasty borders and British cynicism; omits Congress political errors (1937 UP coalition rejection, 1946 Cabinet Mission grouping repudiation). | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | 30 | `freedom-struggle.html` | Partition: Cost of Freedom | Depicts Muslim League solely as communal opportunists, ignoring genuine Muslim minority anxieties regarding majoritarian disenfranchisement in a unitary state (Ayesha Jalal thesis). | L | 🔴 CRITICAL | P1 | ⏳ PENDING |
 | 31 | `freedom-struggle.html` | Parallel Layers (Caste) | Asymmetric framing of Gandhi-Ambedkar dispute; omits Gandhi’s principled rationale against permanent statutory caste separation and his vast nationwide anti-untouchability campaigns. | L | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 32 | `freedom-struggle.html` | Parallel Layers (Communities) | Absence of early religious minority communities: Kerala Syrian / St. Thomas Christians (1st c. CE), Bene Israel / Cochin Jews, and Zoroastrian Parsis seeking refuge from Persian conquest. | N | 🟡 MODERATE | P2 | ⏳ PENDING |
-| 33 | `freedom-struggle.html` | 1946 Turning Points | Under-weighting of INA Red Fort trials and 1946 Royal Indian Navy Revolt; omits Clement Attlee’s testimony that armed force unreliability compelled the swift British departure. | R | 🟡 MODERATE | P2 | ⏳ PENDING |
+| 33 | `freedom-struggle.html` | 1946 Turning Points | Under-weighting of INA Red Fort trials and 1946 Royal Indian Navy Revolt; omits Clement Attlee’s testimony that armed force unreliability compelled the swift British departure. | R | 🟡 MODERATE | P2 | ✅ RESOLVED |
 | 34 | `freedom-struggle.html` | Parallel Layers (Labour) | Omission of major radical peasant uprisings: Bengal Tebhaga movement and armed Telangana peasant insurrection (1946–1951) against feudal Deshmukhs. | L | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 35 | `freedom-struggle.html` | Unfinished Struggles | Complete absence of Andaman & Nicobar penal colony (Cellular Jail), Japanese occupation (1942–45), Netaji’s provisional government, and indigenous tribes (Jarawa, Sentinelese). | N | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 36 | `freedom-struggle.html` | Parallel Layers (Gender/Soc) | Complete silence on subcontinental LGBTQ+ / queer history (Hijra/Kinnar traditions, Kamasutra/Khajuraho representations, Section 377 IPC criminalization). | N | 🟢 MINOR | P3 | ⏳ PENDING |
@@ -93,7 +93,7 @@ The objective of this audit is **NOT** to enforce political centrism or false eq
 | 44 | `timeline.html` | Early Medieval | Omission of the Tripartite Struggle (Gurjara-Pratiharas, Palas, Rashtrakutas) and early Rajput polities, creating an artificial dark age between Harsha and the Delhi Sultanate. | N | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 45 | `timeline.html` | Deccan & South | Bahmani Sultanate and the five Deccan Sultanates (Bijapur, Golconda, Ahmadnagar) omitted from chronology. | N | 🟡 MODERATE | P2 | ⏳ PENDING |
 | 46 | `timeline.html` | Modern Era | Timeline terminates abruptly in 1950, omitting 75+ years of post-independence history (wars, Emergency, 1991 reforms). | N | 🟡 MODERATE | P2 | ⏳ PENDING |
-| 47 | `references.html` | Reading List | Reading list exclusively cites Marxist, subaltern, and Nehruvian historians (Thapar, Chandra, Habib, Guha); omits respected conservative/nationalist scholars (R.C. Majumdar, Jadunath Sarkar, Dharampal). | L | 🔴 CRITICAL | P1 | 🟡 PARTIAL |
+| 47 | `references.html` | Reading List | Reading list exclusively cites Marxist, subaltern, and Nehruvian historians (Thapar, Chandra, Habib, Guha); omits respected conservative/nationalist scholars (R.C. Majumdar, Jadunath Sarkar, Dharampal). | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | 48 | `living-civilizations.html` | Survival vs Extinction | Civilizational continuity thesis risks exceptionalism; oversimplifies extinction of Greco-Roman/Egyptian traditions while understating severe Indian historical ruptures. | L | 🟡 MODERATE | P2 | ⏳ PENDING |
 
 ---
@@ -129,8 +129,8 @@ The following specific gaps from the original 48 have been updated based on edit
 - **Gap #16 (Aurangzeb card missing):** ✅ RESOLVED  
   Aurangzeb card added to `dynasties.html` + dedicated `aurangzeb.html` page (4,528 words).
 
-- **Gap #19 (1857 princely collaboration):** ⏳ PENDING  
-  Not yet added to `colonial-india.html`.
+- **Gap #19 (1857 princely collaboration):** ✅ RESOLVED  
+  Added princely collaboration section to `colonial-india.html` documenting Scindia, Nizam, Rajput rulers, Sikh states, and Lord Canning's "breakwaters in the storm" alongside Evidence Box `EB-1857-1`.
 
 - **Gap #20 (WWI/WWII Indian soldiers):** ⏳ PENDING
 
@@ -141,13 +141,19 @@ The following specific gaps from the original 48 have been updated based on edit
 
 - **Gap #23 (Portuguese Goa missing):** ⏳ PENDING
 
-- **Gap #27 (Armed revolutionaries marginalized):** ⏳ PENDING
+- **Gap #27 (Armed revolutionaries marginalized):** ✅ RESOLVED  
+  Added dedicated subsection "The Parallel Armed Struggle" in `freedom-struggle.html` covering Anushilan Samiti, Ghadar Party, HSRA, Bhagat Singh, Sukhdev, Rajguru, and Azad with `EB-REV-1`.
 
-- **Gap #28 (Savarkar / Hindu Mahasabha missing):** ⏳ PENDING
+- **Gap #28 (Savarkar / Hindu Mahasabha missing):** ✅ RESOLVED  
+  Added early revolutionary organizing, Abhinav Bharat, arms smuggling, and 50-year Andaman Cellular Jail sentence in `freedom-struggle.html`.
 
-- **Gap #29 (Congress Partition causation):** ⏳ PENDING
+- **Gap #29 (Congress Partition causation):** ✅ RESOLVED  
+  Added analysis in `freedom-struggle.html` of Congress's 1937 UP coalition rejection and July 1946 Cabinet Mission grouping repudiation alongside `EB-PART-1`.
 
 - **Gap #30 (Muslim League one-sided):** ⏳ PENDING
+
+- **Gap #33 (INA trials & 1946 RIN Mutiny):** ✅ RESOLVED  
+  Added paragraph in `freedom-struggle.html` documenting Red Fort INA trials and February 1946 Royal Indian Navy mutiny eroding military loyalty.
 
 - **Gap #37 (Emergency erasure):** ✅ RESOLVED  
   (Same as Gap #7.)
@@ -170,8 +176,11 @@ The following specific gaps from the original 48 have been updated based on edit
 - **Gap #46 (Timeline stops at 1950):** ⏳ PENDING  
   `timeline.html` still ends at 1950.
 
-- **Gap #47 (Bibliography left-only):** 🟡 PARTIAL  
-  R.C. Majumdar added to `civilizations.html` source line, but `references.html` bibliography still needs update.
+- **Gap #47 (Bibliography left-only):** ✅ RESOLVED  
+  Expanded reading list in `references.html` with foundational non-Marxist / conservative scholars (R.C. Majumdar, Jadunath Sarkar, Dharampal, Sita Ram Goel) and authentic Hindi academic sources (B.B. Lal, Rahul Sankrityayan, V.S. Agrawal, R.C. Majumdar, ASI).
+
+- **Gap N8 (Non-Ambedkarite anti-caste pioneers):** ✅ RESOLVED  
+  Added "Foundations of Anti-Caste Radicalism" to `freedom-struggle.html` with Phule, Narayana Guru, Iyothee Thass, Periyar, and `EB-AC-1`.
 
 ---
 
@@ -319,9 +328,9 @@ A rigorous audit of the current codebase following the addition of 4 ruler sub-p
 | N5 | `dynasties.html` | Sub-Page Coverage (In-Progress) | N5 (In-Progress, not a gap) — 79 of 83 ruler entries are actively being converted to dedicated pages at 2/day. Estimated completion: 40 days. | — | 🟡 MODERATE | P2 | IN-PROGRESS |
 | N6 | `republic.html` | Territorial Integration & Kashmir | Complete omission of post-1947 Kashmir history: 1952 Delhi Agreement, Article 370 origins, 1953 arrest of Sheikh Abdullah, 1989–90 insurgency, Exodus of Kashmiri Pandits, and the 2019 reorganization. | N | 🔴 CRITICAL | P1 | YES |
 | N7 | `republic.html` | Northeast Integration & Conflicts | Erasure of Northeast post-independence history: Naga nationalist movement, 1966 Mizo uprising and IAF airstrikes, 1979–1985 Assam Agitation, and the enforcement of AFSPA (1958). | N | 🔴 CRITICAL | P1 | YES |
-| N8 | `freedom-struggle.html` | Social Reform & Anti-Caste | Omission of foundational 19th/20th-century anti-caste pioneers: Jyotirao and Savitribai Phule (Satyashodhak Samaj), Iyothee Thass, Narayana Guru (Aruvippuram movement), and Periyar E.V. Ramasamy (Self-Respect Movement). | L | 🔴 CRITICAL | P1 | YES |
+| N8 | `freedom-struggle.html` | Social Reform & Anti-Caste | Omission of foundational 19th/20th-century anti-caste pioneers: Jyotirao and Savitribai Phule (Satyashodhak Samaj), Iyothee Thass, Narayana Guru (Aruvippuram movement), and Periyar E.V. Ramasamy (Self-Respect Movement). | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | N9 | `civilizations.html` | Science, Math & Metallurgy | Complete absence of subcontinental scientific traditions: Aryabhata, Brahmagupta, Madhava of Sangamagrama (Kerala School of Astronomy and Mathematics calculus precursors), and Wootz crucible steel metallurgy. | R | 🔴 CRITICAL | P1 | YES |
-| N10 | `references.html` | Bibliographic Balance | Reading lists site-wide remain heavily weighted toward Marxist, Subaltern, and Nehruvian scholars; foundational non-Marxist and conservative historiographical authorities (R.C. Majumdar, Jadunath Sarkar, Dharampal) remain absent from `references.html`. | L | 🔴 CRITICAL | P1 | YES |
+| N10 | `references.html` | Bibliographic Balance | Reading lists site-wide remain heavily weighted toward Marxist, Subaltern, and Nehruvian scholars; foundational non-Marxist and conservative historiographical authorities (R.C. Majumdar, Jadunath Sarkar, Dharampal) remain absent from `references.html`. | L | 🔴 CRITICAL | P1 | ✅ RESOLVED |
 | N11 | `aurangzeb.html` | Agrarian Economy & Peasant Revolts | Omission of Irfan Habib's agrarian crisis thesis: crushing imperial land revenue extractions (up to 50% of gross produce) fueling Jat (Gokula), Satnami, and Bundela peasant rebellions against Mughal fiscal pressure. | R | 🟡 MODERATE | P2 | YES |
 | N12 | `shivaji.html` | Fiscal Strategy & Border Raids | *Chauth* (25%) and *Sardeshmukhi* (10%) revenue extraction presented without analyzing their coercive fiscal burden on non-Maratha agricultural populations or regional grievances. | R | 🟡 MODERATE | P2 | YES |
 | N13 | `shivaji.html` | Social Hierarchy & Coronation | Gagabhatt coronation (1674) contestation: orthodox Brahminical resistance to Shivaji's Kshatriya status and the elaborate rituals and genealogy created to link him to Sisodia Rajputs. | L | 🟡 MODERATE | P2 | YES |

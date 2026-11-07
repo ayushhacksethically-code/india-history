@@ -115,3 +115,30 @@ changed and why.
 - Reason: A century of documented Mughal–Sikh conflict was
   missing from the hub.
 
+## 2026-11-07 — P1 Gap Fixes & Visual Refinements
+
+### freedom-struggle.html — Non-Ambedkarite anti-caste pioneers
+- Original: Social reform stream focused primarily on Dr. B.R. Ambedkar, omitting 19th-century predecessors.
+- Corrected to: Added "Foundations of Anti-Caste Radicalism" documenting Jyotirao & Savitribai Phule, Narayana Guru, Iyothee Thass, and Periyar E.V. Ramasamy with Evidence Box EB-AC-1.
+- Reason: Foundational 19th-century anti-caste social movements were omitted.
+
+### freedom-struggle.html — Parallel Armed Struggle & Savarkar
+- Original: Political resistance narrative emphasized Congress non-violence to the exclusion of armed revolutionary movements.
+- Corrected to: Added dedicated subsection on HSRA, Bhagat Singh, Sukhdev, Rajguru, Chandrashekhar Azad, and V.D. Savarkar's early revolutionary activity and Cellular Jail imprisonment with Evidence Box EB-REV-1.
+- Reason: Balance armed vs constitutional resistance streams.
+
+### freedom-struggle.html — Armed forces loyalty & Partition nuance
+- Original: British exit attributed strictly to satyagraha; Partition blamed solely on Cyril Radcliffe.
+- Corrected to: Added INA Red Fort trials & 1946 Royal Indian Navy mutiny; added Congress political miscalculations (1937 UP coalition rejection and July 1946 Cabinet Mission grouping repudiation) with Evidence Box EB-PART-1.
+- Reason: Standard historiographical consensus on military unreliability and political drivers of partition.
+
+### colonial-india.html — 1857 Princely Collaboration
+- Original: 1857 portrayed as a uniform national uprising without acknowledging widespread princely support for the Company.
+- Corrected to: Documented Scindia, Nizam of Hyderabad, Cis-Sutlej Sikh states (Patiala, Jind), and Rajputana courts providing troops and supplies to save Company administration, citing Lord Canning's "breakwaters in the storm" with Evidence Box EB-1857-1.
+- Reason: Address fundamental right-leaning missing evidence gap on feudal collaboration.
+
+### references.html — Bibliography balance & Devanagari script
+- Original: Reading lists weighted toward Marxist/Subaltern scholars; no Hindi academic sources; no original script in glossary.
+- Corrected to: Added R.C. Majumdar, Jadunath Sarkar, Dharampal, and Sita Ram Goel; added 5 peer-reviewed Hindi academic texts with [Hindi] tags; added subtle Devanagari script to 23 glossary terms; refined Caste definition into distinct Varna, Jati, and census concepts.
+- Reason: Balance historiographical reading lists and provide linguistic authenticity.
+

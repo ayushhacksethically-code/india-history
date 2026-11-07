@@ -13,6 +13,26 @@ All notable changes to this project.
 - Hindi version (base-language approach)
 - Post-2014 events (scope note only)
 
+## [0.8.0] — 2026-11-07
+### Added
+- freedom-struggle.html: Anti-Caste Pioneers section ("Foundations of Anti-Caste Radicalism" — Phule, Narayana Guru, Iyothee Thass, Periyar, Evidence Box EB-AC-1)
+- freedom-struggle.html: "The Parallel Armed Struggle" subsection (HSRA, Bhagat Singh, Sukhdev, Rajguru, Azad, V.D. Savarkar Cellular Jail sentence, Evidence Box EB-REV-1)
+- freedom-struggle.html: Military loyalty breakdown paragraph (Red Fort INA trials, 1946 Royal Indian Navy mutiny)
+- freedom-struggle.html: Congress Partition nuance (1937 UP coalition rejection, 1946 Cabinet Mission grouping repudiation, Evidence Box EB-PART-1)
+- colonial-india.html: 1857 Princely Collaboration subsection (Scindia, Nizam, Cis-Sutlej Sikh states, Rajputana courts, Lord Canning dispatches, Evidence Box EB-1857-1)
+- references.html: Authoritative non-Marxist / conservative historians (R.C. Majumdar, Jadunath Sarkar, Dharampal, Sita Ram Goel)
+- references.html: Rigorous Hindi academic publications (B.B. Lal, Rahul Sankrityayan, V.S. Agrawal, R.C. Majumdar, ASI) with [Hindi] tags
+- references.html: Subtle Devanagari script added to 23 Sanskrit/Hindi glossary terms + standalone Pashupati entry
+- Sitewide: Structured JSON-LD schema updated across all 22 pages; review dates bumped to 7 November 2026
+
+### Fixed
+- freedom-struggle.html: Many Streams SVG visual bug — separated overlapping text ("1947 INDEPENDENCE" and "CONTINUING BEYOND 1947 →") with dedicated clearance coordinates
+- references.html: Refined definition for "Caste" to explicitly distinguish theoretical Varna, lived Jati, and colonial census aggregation
+
+### Verified
+- Byte-identical chrome, headers, and footers across all 22 pages
+- CDP test suite: 132/132 viewports pass cleanly
+
 ## [0.7.0] — 2026-10-11
 ### Added
 - Harappan Seals section on origins.html ("The Seals of the Harappan World" — 5 cards, Pashupati contested label, trade network, Marshall/Mackay/Parpola sources)
