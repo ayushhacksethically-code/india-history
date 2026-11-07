@@ -2056,6 +2056,12 @@ body[data-page="freedom"] .mobile-nav-links .nav-link[data-page="freedom"] {
   }
 }
 
+@media (min-width: 768px) {
+  .explore-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (min-width: 1024px) {
   .explore-grid {
     grid-template-columns: repeat(4, 1fr);
